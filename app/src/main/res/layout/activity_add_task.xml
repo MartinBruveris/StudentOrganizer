@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/activity_add_task"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="6"
+    tools:context="com.martin.studentorganizer.AddTaskActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/colorAccent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@android:color/holo_green_light"
+        android:elevation="10dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@android:color/darker_gray"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/spinner"
+        android:layout_marginTop="30dp"
+        android:spinnerMode="dialog"
+        android:gravity="left"
+        app:popupTheme="@android:color/holo_blue_dark"
+        style="@style/Widget.AppCompat.Spinner.Underlined">
+    </Spinner>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/spinner2"
+        android:layout_marginTop="30dp"
+        android:spinnerMode="dialog"
+        app:popupTheme="@android:color/holo_blue_dark"
+        style="@style/Widget.AppCompat.Spinner.Underlined"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/spinner3"
+        android:layout_marginTop="30dp"
+        android:spinnerMode="dialog"
+        app:popupTheme="@android:color/holo_blue_dark"
+        style="@style/Widget.AppCompat.Spinner.Underlined"/>
+
+    <Button
+        android:text="Add Task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/add_task_button"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+</LinearLayout>

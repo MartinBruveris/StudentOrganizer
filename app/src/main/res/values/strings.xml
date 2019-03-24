@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Student Organizer</string>
+    <string name="manage_tasks">Manage Tasks</string>
+    <string name="modules">Modules</string>
+    <string name="view_tasks">View Tasks</string>
+    <string name="take_photo_note">Take Photo Note</string>
+    <string name="add_task">Add New Task</string>
+    <string name="remove_task">Remove Task</string>
+    <string name="update_task">Update Task</string>
+    <string name="upcoming_task">Upcoming Tasks</string>
+    <string name="past_task">Past Tasks</string>
+    <string name="add_module">Add Module</string>
+    <string name="remove_module">Remove Module</string>
+    <string name="view_modules">View Modules</string>
+</resources>
